@@ -1,0 +1,58 @@
+* {
+background-color: royalblue;
+}
+
+.flexbox-container {
+    border: 3px solid red;
+    justify-content: space-evenly;
+    padding: 30px;
+    min-height: 70vh;
+
+}
+
+.flexbox-item-2 {
+
+}
+.flexbox-item-3 {
+  display: flex;
+  justify-items: right;
+  margin-left: 95%;
+  min-height: fit-content;
+  margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+text-align: right;
+}
+
+h3 {
+
+}
+
+button {
+background-color: goldenrod;
+min-height: 35px;
+min-width: 100px;
+}
+.button-1 {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-2 {
+margin-top: 435px;
+display: flex;
+justify-content: center;
+
+}
+.button-3 {
+    display: flex;
+    margin-top: ;
+}
+button:hover {
+    background-color: gold;
+}
