@@ -22,12 +22,14 @@ function startGame() {
   setNextQuestion()
 }
 
+
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 function showQuestion(question) {
+  console.log(question)
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
     const button = document.createElement('button')
@@ -120,11 +122,12 @@ const questions = [
   {
     question:
       'A very useful tool used during development and debugging for printing content to the debugger is:',
-    answer: [
+    answers: [
     { text: 'JavaScript', correct: false},
     { text: 'terminal / bash', correct: false},
     { text: 'for loops', correct: false},
     { text: 'console.log', correct: true}
     ]
-  }
+  },
 ]
+ 
