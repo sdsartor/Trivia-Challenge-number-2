@@ -25,9 +25,10 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-  var tenSeconds = 60 * 10,
+  var oneminute = 60 * 10,
       display = document.querySelector('#time');
-  startTimer(tenSeconds, display);
+  startTimer(oneminute, display);
+ 
 };
 
 startButton.addEventListener('click', startGame)
